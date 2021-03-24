@@ -991,3 +991,13 @@ figure.effect-julia:hover h2 {
 .scroll_to_portfolio {
   height: unset;
 }
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin-bottom: 500px;
+}
+.form  input {
+  width: 250px;
+  margin-bottom: 25px;
+}
