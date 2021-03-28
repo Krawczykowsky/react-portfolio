@@ -2,7 +2,7 @@ import React from 'react'
 export default function About() {
     return (
         <div className="container">
-            <div className="main_info_container scroll_to_about" >
+            <div className="main_info_container about_section scroll_to_about" >
                 <div className="info_list" >
                     <div className="info_list_text">
                         <div className="info_list_text_subtitle">
@@ -23,10 +23,13 @@ export default function About() {
 
 Jestem ambitnym programistą z ponad dwuletnim doświadczeniem w branży, specjalizuję się w tworzeniu stron internetowych oraz aplikacji webowych.
 Zdobywałem umiejętności podczas 120 godzinnego kursu programowania JavaScript oraz stażu, który ukończyłem z pozytywnymi referencjami.
-Obecnie skupiam się na poszerzeniu swoich umiejętności w zakresie back-endu ucząc się programowania w języku Python oraz frameworku Django. Dodatkowo poszerzam znajomość biblioteki React.js i Node.js.
+Obecnie skupiam się na poszerzeniu swoich umiejętności w zakresie back-endu. Poszerzam znajomość bibliotek React.js, Node.js, Express.js i GraphQL.
 Jestem zainteresowany pracą na stanowisku Front-End Developera lub junior Back-End Developera, gdzie chciałbym się rozwijać w realizacji ciekawych, nowoczesnych projektów
                                 
                             </p>
+                            {/* <div className="buttonsContainer">
+                                <a >Link</a>
+                            </div> */}
                         </div>
                     </div>
                 </div>
