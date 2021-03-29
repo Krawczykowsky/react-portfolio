@@ -32,12 +32,10 @@ const Contact = () => {
     if (name==="") {
       setNameError(true)
       return null
-    }
-    if (email==="") {
+    } else if (email==="") {
       setEmailError(true)
       return null
-    }
-    if (message==="") {
+    }else if (message==="") {
       setMessageError(true)
       return null
     }
@@ -79,7 +77,13 @@ const Contact = () => {
           
             
         </div>
-        <div className="contact-form-container-wrapper">
+        <div className="contact-wrapper">
+          <div class="contact-txt">
+            <h4>Maciej Krawczykowski</h4>
+            <h5>krawczykowski.maciej@pm.me</h5>
+            <h5>883 090 808</h5>
+          </div>
+          <div className="contact-form-container-wrapper">
             {showForm && (
               <div className="contact-form-container">
                 <input placeholder='imię/firma' value={name} onChange={e => setName(e.target.value)}/>
@@ -98,6 +102,8 @@ const Contact = () => {
               <h3>Wiadomość została wysłana</h3>
             )}
           </div>
+        </div>
+        
           
       </div>
   )
