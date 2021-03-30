@@ -1,4 +1,5 @@
 import React from 'react'
+import cv from '../img/project_high.pdf'
 export default function About() {
     return (
         <div className="container">
@@ -27,9 +28,9 @@ Obecnie skupiam się na poszerzeniu swoich umiejętności w zakresie back-endu. 
 Jestem zainteresowany pracą na stanowisku Front-End Developera lub junior Back-End Developera, gdzie chciałbym się rozwijać w realizacji ciekawych, nowoczesnych projektów
                                 
                             </p>
-                            {/* <div className="buttonsContainer">
-                                <a >Link</a>
-                            </div> */}
+                            <div className="buttonsContainer">
+                                <a href={cv}>Link do CV</a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -448,11 +448,12 @@ section {
 .buttonsContainer {
   display: flex;
   margin-top: 40px;
+  
 }
 
 .buttonsContainer a {
   text-decoration: none;
-  color: #212529;
+  color: white;
   z-index: 2;
   position: relative;
   padding-left: 40px;
@@ -467,7 +468,7 @@ section {
   width: 30px;
   height: 1px;
   display: block;
-  background-color:#212529;;
+  background-color:white;;
   position: absolute;
   left: 0px;
   top: 50%;
@@ -476,7 +477,7 @@ section {
 .buttonsContainer a:hover{
   font-weight: 700;
   padding-left: 55px;
-  color: black;
+  color: rgb(255, 255, 255);
   letter-spacing: 3.5px;
 }
 .buttonsContainer a:hover::before{
